@@ -68,25 +68,30 @@ CIRCUIT DIAGRAM
 
 **PROGRAM** 
  
+int led=7;
+int Sensorvalue=A0;
+void setup()
+{
+  pinMode(7,OUTPUT);
+  Sensorvalue=0;
+  Serial.begin(9600);
+}
 
-
-
-
-
-
-
+void loop()
+{
+  Sensorvalue=analogRead(A0);
+  //Serial.print("POT");
+  Serial.println(Sensorvalue);
+  delay(1000);
+  digitalWrite(7,Sensorvalue);
+               
+}
 
 
 **
 **Simulation output:** 
 **
-
-
-[My image](username.github.com/repository/img/image.jpg)
-
-
-
-
+![output](./b.png)
 
 
 
