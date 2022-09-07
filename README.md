@@ -67,7 +67,7 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
- 
+ ```
 int led=7;
 int Sensorvalue=A0;
 void setup()
@@ -86,7 +86,7 @@ void loop()
   digitalWrite(7,Sensorvalue);
                
 }
-
+```
 
 **
 **Simulation output:** 
