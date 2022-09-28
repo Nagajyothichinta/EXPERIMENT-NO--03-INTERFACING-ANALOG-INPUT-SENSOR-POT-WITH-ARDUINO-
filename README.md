@@ -92,6 +92,7 @@ void loop()
 **Simulation output:** 
 **
 ![output](./b.png)
+![output](./i1.PNG)
 
 
 
